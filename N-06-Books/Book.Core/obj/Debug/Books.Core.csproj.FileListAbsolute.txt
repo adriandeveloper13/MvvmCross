@@ -12,29 +12,17 @@ C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\D
 C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.csprojResolveAssemblyReference.cache
 C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
 C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
-C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\Books.Core.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\Books.Core.pdb
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Binding.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Core.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Localization.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Platform.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Plugins.Json.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\Newtonsoft.Json.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\Newtonsoft.Json.xml
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\obj\Debug\Books.Core.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\obj\Debug\Books.Core.pdb
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\MvvmCross.Plugins.DownloadCache.dll
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\obj\Debug\Books.Core.dll.mdb
+D:\MvvmCross\MvvmFirstRepo\N-06-Books\Book.Core\bin\Debug\Books.Core.dll.mdb

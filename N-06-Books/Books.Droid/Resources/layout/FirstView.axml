@@ -11,9 +11,15 @@
         android:layout_height="wrap_content"
         android:textSize="40dp"
         local:MvxBind="Text SearchTerm" />
-  <Mvx.MvxListView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      local:MvxBind="ItemsSource Results"/>
-        <!--local:MvxItemTemplate="@/layout/item_book" />-->
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        local:MvxBind="Visibility IsLoading,Converter=Visibility"
+        android:id="@+id/progressBar1" />
+    <Mvx.MvxListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        local:MvxBind="ItemsSource Results" />
+<!--local:MvxItemTemplate="@/layout/item_book" />-->
 </LinearLayout>

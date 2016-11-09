@@ -114,6 +114,8 @@ class MonoPackageManager_Resources {
 		"MvvmCross.Plugins.File.dll",
 		"MvvmCross.Plugins.File.Droid.dll",
 		"MvvmCross.Plugins.Json.dll",
+		"MvvmCross.Plugins.Visibility.dll",
+		"MvvmCross.Plugins.Visibility.Droid.dll",
 		"Newtonsoft.Json.dll",
 		"System.Collections.Immutable.dll",
 		"Xamarin.Android.Support.Compat.dll",

@@ -2,23 +2,41 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 using Book.Core.Services;
 using MvvmCross.Core.ViewModels;
+using MvvmCross.Plugins.DownloadCache;
 
 namespace Book.Core.ViewModels
 {
     public class FirstViewModel : MvxViewModel
     {
+        private readonly object _lockObject = new Object();//I've added a sync object , so I can do multiThreading  without to worry about
+        // _lockObject allows me to access a resource, or to call a method   without to worry about threading conflicts
+        private MvxFileDownloadCache.Timer _timer;
         private readonly IBooksService _books;
-
         public FirstViewModel(IBooksService books)
         {
             _books = books;
         }
 
-        private string _searchTerm;
+        private bool _isLoading;
 
+        public bool IsLoading
+        {
+            get
+            {
+                return _isLoading;
+            }
+            set
+            {
+                _isLoading = value;
+                RaisePropertyChanged( () => IsLoading);
+            }
+
+        }
+
+        private string _searchTerm;
         public string SearchTerm
         {
             get { return _searchTerm; }
@@ -26,9 +44,25 @@ namespace Book.Core.ViewModels
             {
                 _searchTerm = value;
                 RaisePropertyChanged(() => SearchTerm);
-                Update();
+                ScheduleUpdate();
             }
         }
+
+        private void ScheduleUpdate()
+        {
+            lock (_lockObject)
+            {
+                //if (_timer != null)
+                //{
+                    _timer = new MvxFileDownloadCache.Timer(OnTimerTick, null, TimeSpan.FromSeconds(1.0), TimeSpan.Zero);
+                //}
+                //else
+                //{
+                //    _timer.Change(TimeSpan.FromSeconds(1.0), TimeSpan.Zero);
+                //}
+            }
+        }
+
 
         private List<BookSearchItem> _results;
 
@@ -42,11 +76,30 @@ namespace Book.Core.ViewModels
             }
         }
 
+        private void OnTimerTick(object state)
+        {
+            lock (_lockObject)
+            {
+                _timer.Dispose();
+                _timer = null;
+                Update();
+            }
+        }
+
         private void Update()
         {
-            _books.StartSearchAsync(SearchTerm, 
-                result => Results = result.items, 
-                error => { });
+            IsLoading = true;
+            _books.StartSearchAsync(SearchTerm,
+                result =>
+                {
+                    IsLoading = false;
+                    Results = result.items;
+                },
+
+                error =>
+                {
+                    IsLoading = false;
+                });
         }
     }
 }
