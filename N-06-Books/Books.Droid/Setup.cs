@@ -19,6 +19,7 @@ namespace Books.Droid
 {
     public class Setup: MvxAndroidSetup
     {
+        //comment
         public Setup(Context applicationContext):base(applicationContext)
         { }
         protected override IMvxApplication CreateApp()
