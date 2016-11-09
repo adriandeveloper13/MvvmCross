@@ -1,0 +1,14 @@
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Book.Core.csprojResolveAssemblyReference.cache
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Book.Core.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Book.Core.pdb
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\MvvmCross.Binding.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\MvvmCross.Core.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\MvvmCross.Localization.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\MvvmCross.Platform.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\MvvmCross.Plugins.Json.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Book.Core.dll
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Book.Core.pdb
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\obj\Debug\Book.Core.dll.mdb
+C:\Users\Adryan\documents\visual studio 2015\Projects\N-06-Books\Book.Core\bin\Debug\Book.Core.dll.mdb
